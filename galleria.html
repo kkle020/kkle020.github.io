@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleria Lavori | Fabbro Saldatore</title>
+    <meta name="description" content="Galleria foto dei nostri lavori: cancelli, ringhiere, inferriate e strutture metalliche realizzate.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&#9878;</span>
+                <span class="logo-text">FABBRO<br><small>_[COGNOME]</small></span>
+            </a>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="prodotti.html">Prodotti</a></li>
+                    <li><a href="galleria.html" class="active">Galleria</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </nav>
+            <a href="contatti.html" class="btn btn-primary header-cta">Preventivo Gratuito</a>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Galleria dei Lavori</h1>
+            <p>Una selezione dei nostri migliori lavori in ferro battuto e saldato.</p>
+        </div>
+    </section>
+
+    <!-- Filter -->
+    <section class="section gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tutti</button>
+                <button class="filter-btn" data-filter="cancelli">Cancelli</button>
+                <button class="filter-btn" data-filter="ringhiere">Ringhiere</button>
+                <button class="filter-btn" data-filter="inferriate">Inferriate</button>
+                <button class="filter-btn" data-filter="strutture">Strutture</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Cancelli -->
+                <div class="gallery-item" data-category="cancelli">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Cancello+1" alt="Cancello in ferro battuto">
+                    <div class="gallery-overlay">
+                        <h3>Cancello Scorrevole</h3>
+                        <p>Residenza Privata</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cancelli">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Cancello+2" alt="Cancello battente">
+                    <div class="gallery-overlay">
+                        <h3>Cancello Battente</h3>
+                        <p>Villa con Giardino</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cancelli">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Cancello+3" alt="Cancello automatico">
+                    <div class="gallery-overlay">
+                        <h3>Cancello Automatico</h3>
+                        <p>Condominio</p>
+                    </div>
+                </div>
+
+                <!-- Ringhiere -->
+                <div class="gallery-item" data-category="ringhiere">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Ringhiera+1" alt="Ringhiera balcono">
+                    <div class="gallery-overlay">
+                        <h3>Ringhiera Balcone</h3>
+                        <p>Appartamento Città</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="ringhiere">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Ringhiera+2" alt="Ringhiera scala">
+                    <div class="gallery-overlay">
+                        <h3>Ringhiera Scala</h3>
+                        <p>Residenza Privata</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="ringhiere">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Ringhiera+3" alt="Ringhiera artistica">
+                    <div class="gallery-overlay">
+                        <h3>Ringhiera Artistica</h3>
+                        <p>Storico Centro</p>
+                    </div>
+                </div>
+
+                <!-- Inferriate -->
+                <div class="gallery-item" data-category="inferriate">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Inferriata+1" alt="Inferriata fissa">
+                    <div class="gallery-overlay">
+                        <h3>Inferriata Fissa</h3>
+                        <p>Abitazione</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="inferriate">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Inferriata+2" alt="Inferriata apribile">
+                    <div class="gallery-overlay">
+                        <h3>Inferriata Apribile</h3>
+                        <p>Negozio</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="inferriate">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Inferriata+3" alt="Inferriata decorativa">
+                    <div class="gallery-overlay">
+                        <h3>Inferriata Decorativa</h3>
+                        <p>Casa di Campagna</p>
+                    </div>
+                </div>
+
+                <!-- Strutture -->
+                <div class="gallery-item" data-category="strutture">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Tettoia+1" alt="Tettoia in ferro">
+                    <div class="gallery-overlay">
+                        <h3>Tettoia Copertura</h3>
+                        <p>Area Esterna</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="strutture">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Recinzione+1" alt="Recinzione">
+                    <div class="gallery-overlay">
+                        <h3>Recinzione</h3>
+                        <p>Perimetro Proprietà</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="strutture">
+                    <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=Struttura+1" alt="Struttura metallica">
+                    <div class="gallery-overlay">
+                        <h3>Struttura Portante</h3>
+                        <p>Capannone Industriale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta">
+        <div class="container">
+            <h2>Ti è Piaciuto Quello Che Vedi?</h2>
+            <p>Contattaci per realizzare il tuo progetto su misura.</p>
+            <a href="contatti.html" class="btn btn-primary btn-large">Richiedi Preventivo</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>FABBRO_[COGNOME]</h4>
+                    <p>Artigiani del ferro dal 19XX. Qualità, affidabilità e passione in ogni lavoro.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contatti</h4>
+                    <p>&#9742; +39 XXX XXX XXXX</p>
+                    <p>&#9993; info@fabbro-[cognome].it</p>
+                    <p>&#9873; [Indirizzo], [Città] (PROVINCIA)</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Orari</h4>
+                    <p>Lun - Ven: 8:00 - 18:00</p>
+                    <p>Sab: 8:00 - 13:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 FABBRO_[COGNOME]. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <img src="" alt="" id="lightbox-img">
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

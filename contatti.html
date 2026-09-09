@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti | Fabbro Saldatore</title>
+    <meta name="description" content="Contattaci per preventivo gratuito. Fabbro saldatore per cancelli, ringhiere, inferriate.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&#9878;</span>
+                <span class="logo-text">FABBRO<br><small>_[COGNOME]</small></span>
+            </a>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="prodotti.html">Prodotti</a></li>
+                    <li><a href="galleria.html">Galleria</a></li>
+                    <li><a href="contatti.html" class="active">Contatti</a></li>
+                </ul>
+            </nav>
+            <a href="contatti.html" class="btn btn-primary header-cta">Preventivo Gratuito</a>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contattaci</h1>
+            <p>Richiedi un preventivo gratuito o contattaci per qualsiasi informazione.</p>
+        </div>
+    </section>
+
+    <!-- Contatti -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Richiedi Preventivo Gratuito</h2>
+                    <p>Compila il modulo e ti risponderemo entro 24 ore.</p>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome e Cognome *</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="telefono">Telefono *</label>
+                                <input type="tel" id="telefono" name="telefono" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="servizio">Cosa ti interessa? *</label>
+                            <select id="servizio" name="servizio" required>
+                                <option value="">Seleziona un'opzione</option>
+                                <option value="cancelli">Cancelli</option>
+                                <option value="ringhiere">Ringhiere</option>
+                                <option value="inferriate">Inferriate</option>
+                                <option value="strutture">Strutture Metalliche</option>
+                                <option value="altro">Altro / Non so</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="descrizione">Descrivi il tuo progetto *</label>
+                            <textarea id="descrizione" name="descrizione" rows="5" required placeholder="Descrivi brevemente cosa vorresti realizzare, dimensioni approximate, zona di installazione..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Invia Richiesta</button>
+                    </form>
+                </div>
+
+                <!-- Info Contatto -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">&#9742;</div>
+                        <h3>Telefono</h3>
+                        <p>+39 XXX XXX XXXX</p>
+                        <p class="small">Lun-Ven 8:00-18:00</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">&#9993;</div>
+                        <h3>Email</h3>
+                        <p>info@fabbro-[cognome].it</p>
+                        <p class="small">Risposta entro 24h</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">&#9873;</div>
+                        <h3>Laboratorio</h3>
+                        <p>[Indirizzo Completo]</p>
+                        <p>[Città] ([PROVINCIA])</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">&#9201;</div>
+                        <h3>Orari</h3>
+                        <p>Lun - Ven: 8:00 - 18:00</p>
+                        <p>Sab: 8:00 - 13:00</p>
+                        <p>Dom: Chiuso</p>
+                    </div>
+
+                    <!-- Mappa placeholder -->
+                    <div class="map-placeholder">
+                        <p>La tua mappa qui</p>
+                        <p class="small">Inserisci il codice Google Maps embed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>FABBRO_[COGNOME]</h4>
+                    <p>Artigiani del ferro dal 19XX. Qualità, affidabilità e passione in ogni lavoro.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contatti</h4>
+                    <p>&#9742; +39 XXX XXX XXXX</p>
+                    <p>&#9993; info@fabbro-[cognome].it</p>
+                    <p>&#9873; [Indirizzo], [Città] (PROVINCIA)</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Orari</h4>
+                    <p>Lun - Ven: 8:00 - 18:00</p>
+                    <p>Sab: 8:00 - 13:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 FABBRO_[COGNOME]. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
